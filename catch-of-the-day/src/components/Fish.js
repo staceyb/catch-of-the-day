@@ -17,8 +17,9 @@ export default class Fish extends Component {
     this.props.addToOrder(this.props.index);
   }
   render() {
-    const {image, name, price, desc, status} = this.props.details;
+    let {image, name, price, desc, status} = this.props.details;
     const isAvailable = status === 'available';
+    image = process.env.PUBLIC_URL + image;
     return (
     <li className="menu-fish">
       <img src={image} alt={name} />
