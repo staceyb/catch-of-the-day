@@ -290,7 +290,7 @@ header.top h1 .ofThe .of {
   right: -0.5rem;
 }
 header.top h3 {
-  margin: 0;
+  margin: 0 0 2rem;
   font-size: 2rem;
   color: #f5a623;
   position: relative;
@@ -505,6 +505,7 @@ ul.order li span.count span {
 .menu-fish p {
   margin: 0;
   font-size: 1.8rem;
+  overflow: hidden;
 }
 .menu-fish .fish-name {
   margin: 0;
